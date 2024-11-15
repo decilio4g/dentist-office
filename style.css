@@ -1,0 +1,249 @@
+#subtitle-services {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+#background {
+    position: relative;
+    /* Necessário para o overlay funcionar corretamente */
+    padding: 30px;
+    color: white;
+    /* Cor do texto */
+    background-image: url('./img/facial.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* Defina a altura necessária */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+/* Sobreposição para dar contraste ao texto */
+#background .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    /* Sobreposição preta com 50% de opacidade */
+    z-index: 1;
+    /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+/* Ajustando o conteúdo de texto para ficar acima da sobreposição */
+.content {
+    position: relative;
+    /* Coloca o conteúdo acima da sobreposição */
+    z-index: 2;
+    /* Garante que o texto fique acima da sobreposição */
+    text-align: center;
+}
+
+.content h4,
+.content p {
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+    /* Sombra preta suave no texto */
+}
+
+.content h4 {
+    font-size: 2.5rem;
+    /* Tamanho maior para o título */
+    font-weight: bold;
+    /* Deixa o título em negrito */
+    color: #000;
+}
+
+.content p {
+    font-size: 1.2rem;
+    /* Tamanho de fonte um pouco maior para o parágrafo */
+    line-height: 1.4;
+    /* Aumenta o espaçamento entre as linhas */
+    font-weight: 400;
+}
+
+
+/* Ortodontia */
+
+#background-ortodontia {
+    position: relative;
+    /* Necessário para o overlay funcionar corretamente */
+    padding: 30px;
+    color: white;
+    /* Cor do texto */
+    background-image: url('./img/invisalign-hugo-madeira.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* Defina a altura necessária */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+/* Sobreposição para dar contraste ao texto */
+#background-ortodontia .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    /* Sobreposição preta com 50% de opacidade */
+    z-index: 1;
+    /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+
+/* lentes */
+
+#background-lentes {
+    position: relative;
+    /* Necessário para o overlay funcionar corretamente */
+    padding: 30px;
+    color: white;
+    /* Cor do texto */
+    background-image: url('./img/lentes-de-contato.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* Defina a altura necessária */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+/* Sobreposição para dar contraste ao texto */
+#background-lentes .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    /* Sobreposição preta com 50% de opacidade */
+    z-index: 1;
+    /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+/* implantodontia */
+#background-implantodontia {
+    position: relative;
+    /* Necessário para o overlay funcionar corretamente */
+    padding: 30px;
+    color: white;
+    /* Cor do texto */
+    background-image: url('./img/implante.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* Defina a altura necessária */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+#background-implantodontia #implantodontia {
+    font-size: 1.8rem;
+}
+
+
+/* Sobreposição para dar contraste ao texto */
+#background-implantodontia .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    /* Sobreposição preta com 50% de opacidade */
+    z-index: 1;
+    /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+/* periodontia */
+#background-periodontia {
+    position: relative;
+    /* Necessário para o overlay funcionar corretamente */
+    padding: 30px;
+    color: white;
+    /* Cor do texto */
+    background-image: url('./img/periodontia.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* Defina a altura necessária */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+/* Sobreposição para dar contraste ao texto */
+#background-periodontia .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    /* Sobreposição preta com 50% de opacidade */
+    z-index: 1;
+    /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+/* implantodontia */
+#background-proteses {
+    position: relative;
+    /* Necessário para o overlay funcionar corretamente */
+    padding: 30px;
+    color: white;
+    /* Cor do texto */
+    background-image: url('./img/protese.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* Defina a altura necessária */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+/* Sobreposição para dar contraste ao texto */
+#background-proteses .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    /* Sobreposição preta com 50% de opacidade */
+    z-index: 1;
+    /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+
+#ambiente-imagens {
+    height: 45vh;
+}
+
+#background-black {
+    background-color: #000 !important;
+}
+
+#color-black {
+    color: #000 !important;
+}
+
+#color-white {
+    color: #fff
+}
+
+#price-carousel-back::after {
+    background-color: #000;
+}
+
+.price-carousel .owl-nav .owl-prev, .price-carousel .owl-nav .owl-next {
+    color: #000 !important;
+} 
